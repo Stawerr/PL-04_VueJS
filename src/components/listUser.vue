@@ -13,6 +13,11 @@ export default {
     props:{
     user: ''
   },
+  methods: {
+    nameAlert(){
+      alert(this.user.name.first);
+    }
+  },
 
 }
 </script>

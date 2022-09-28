@@ -1,6 +1,7 @@
 <template>
   <div>
    <UserComponent></UserComponent>
+   
   </div>
 </template>
 
@@ -8,7 +9,7 @@
   import UserComponent from "./components/userComponent.vue";
  export default {
   components: {
-    UserComponent
+    UserComponent,
 }
  }
   
